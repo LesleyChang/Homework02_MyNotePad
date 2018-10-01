@@ -1,0 +1,19 @@
+﻿<Window x:Class="MyNotePad.Window_CustoColor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyNotePad"
+        mc:Ignorable="d"
+        Title="Window_CustoColor" Height="193.511" Width="404.962">
+    <Grid>
+        <ComboBox Name="ForegroundCB" SelectionChanged="ForegroundCB_SelectionChanged"  HorizontalAlignment="Left" Margin="38,37,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox Name="BackgroundCB" SelectionChanged="BackgroundCB_SelectionChanged" HorizontalAlignment="Left" Margin="38,100,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Name="TestLabel" BorderThickness="2" Content="AaBbCc" HorizontalAlignment="Left" Margin="200,11,0,0" VerticalAlignment="Top" Height="93" Width="153" BorderBrush="Black" FontSize="16"/>
+        <Label Content="Foreground:" HorizontalAlignment="Left" Margin="38,11,0,0" VerticalAlignment="Top"/>
+        <Label Content="Background:" HorizontalAlignment="Left" Margin="38,73,0,0" VerticalAlignment="Top"/>
+        <Button Name="OK_Btn" Content="OK" Click="OK_Btn_Click" HorizontalAlignment="Left" Margin="200,123,0,0" VerticalAlignment="Top" Width="67"/>
+        <Button Name="Cancel_Btn" Content="Cancel" Click="Cancel_Btn_Click" HorizontalAlignment="Left" Margin="286,123,0,0" VerticalAlignment="Top" Width="67"/>
+
+    </Grid>
+</Window>
