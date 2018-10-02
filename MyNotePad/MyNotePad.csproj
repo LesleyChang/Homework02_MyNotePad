@@ -57,7 +57,7 @@
     <Compile Include="Window_CustoColor.xaml.cs">
       <DependentUpon>Window_CustoColor.xaml</DependentUpon>
     </Compile>
-    <Page Include="MainWindow.xaml">
+    <Page Include="Window_NotePad.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -65,8 +65,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="Window_NotePad.xaml.cs">
+      <DependentUpon>Window_NotePad.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Window_CustoColor.xaml">

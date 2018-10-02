@@ -15,7 +15,7 @@ namespace MyNotePad
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            Window x = new MainWindow();
+            Window x = new Window_NotePad();
             x.Show();
             base.OnStartup(e);
         }
